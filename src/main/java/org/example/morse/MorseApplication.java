@@ -1,4 +1,4 @@
-package com.samarthr.morse;
+package org.example.morse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Table Styles */
+#historyTable {
+    width: 100%;
+    border: 2px solid #ccc; /* Add border to the table */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#historyTable caption {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#historyTable th, #historyTable td {
+    border: 1px solid #ccc; /* Add border to each cell */
+    padding: 10px;
+}
+
+#historyTable th {
+    background-color: #BE7B72;
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+#historyTable td {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+}
+
+#historyTable tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+#historyTable tbody tr:hover {
+    background-color: #dcdcdc;
+}
+
+html {
+    background-color: #FDAF7B;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+h1{
+    font-family: "Nunito Sans", sans-serif;
+}
+.box {
+    position: relative;
+    max-width: 900px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left:50px;
+    padding-bottom: 120px; /* Adjusted to accommodate the audio buttons */
+}
+.input-textarea, .output-textarea {
+    height: 200px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.input-output-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.label-container {
+    display: flex;
+    align-items: center;
+}
+.label {
+    text-align: center;
+    font-size: 18px;
+}
+.swap-button {
+    background-color: #824D74;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 100px;
+}
+.swap-button:hover {
+    background-color: #308aeb;
+}
+.audio-button {
+    background-color: #401F71;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Adjust margin as needed */
+}
+.audio-button:hover {
+    background-color: #308aeb;
+}
+.upload-button, .reset-button, .convert-button {
+    background-color: #BE7B72;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.upload-button:hover, .reset-button:hover, .convert-button:hover {
+    background-color: #308aeb;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
